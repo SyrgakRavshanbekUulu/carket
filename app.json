@@ -17,13 +17,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.testproject.carket-rn-app",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#FFFFFF" 
+      },
+      "package": "com.testproject.carket_rn_app",
+      "versionCode": 1,
+      "permissions" : []
     },
     "web": {
       "favicon": "./assets/favicon.png"
